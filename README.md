@@ -23,9 +23,9 @@ react前后端同构架构
 ```
 > 开发构建步骤
 ```
- yarn dll      // 先打包第三方库
- yarn dev      // 打包客户端文件
- yarn server   // 启动服务器
+ yarn dll      // 先打包第三方库,如果第三方库未发生变化,可跳过打包第三方库的过程, 直接运行yarn dev
+ yarn dev      // 打包客户端文件
+ yarn server   // 启动服务器
 ```
 
 > 生产环境构建
