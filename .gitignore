@@ -1,6 +1,6 @@
 node_modules/*
 yarn-error.log
-build
 static
+build/*.json
 .cache-loader
 
